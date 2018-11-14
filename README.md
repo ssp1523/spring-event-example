@@ -602,7 +602,7 @@ Spring事件各种发布和监听的方式，我们可以根据业务情况任�
 
 如果你的项目Spring版本低于4.2基于注解驱动方式则不适合，只能继承事件类或实现监听接口的方式。
 
-本章节所有示例代码都在[GitHub上获取](https://github.com/ssp1523/spring-event-example)或者直接用 git clone
+本章节所有示例代码都在[GitHub上获取](https://github.com/ssp1523/spring-event-example)或者直接用 git clone ，它一个Maven+Spring boot项目。
 
 ```sh
 git clone https://github.com/ssp1523/spring-event-example.git
