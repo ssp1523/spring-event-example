@@ -30,6 +30,8 @@ public class OrderService implements ApplicationEventPublisherAware {
         System.out.println("订单保存成功：" + order);
         //发布订单创建事件
         applicationEventPublisher.publishEvent(new OrderCreateEvent(this, order));
+        applicationEventPublisher.publishEvent(new GenericEvent<>(order));
+        applicationEventPublisher.publishEvent(order);
 
     }
 
